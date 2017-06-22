@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6148" started-at="2017-06-22T19:01:36Z" finished-at="2017-06-22T19:01:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6148" started-at="2017-06-22T19:01:36Z" finished-at="2017-06-22T19:01:42Z">
+      <class name="test.mainTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.mainTest@3e6fa38a]" name="beforeTest" is-config="true" duration-ms="1128" started-at="2017-06-22T15:01:36Z" finished-at="2017-06-22T15:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="sampleRunToFail()[pri:0, instance:test.mainTest@3e6fa38a]" name="sampleRunToFail" duration-ms="3603" started-at="2017-06-22T15:01:37Z" finished-at="2017-06-22T15:01:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[test string does not display properly expected [bad input] but found [examen]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: test string does not display properly expected [bad input] but found [examen]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at test.mainTest.sampleRunToFail(mainTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleRunToFail -->
+        <test-method status="PASS" signature="sampleRunToPass()[pri:0, instance:test.mainTest@3e6fa38a]" name="sampleRunToPass" duration-ms="1330" started-at="2017-06-22T15:01:41Z" finished-at="2017-06-22T15:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleRunToPass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.mainTest@3e6fa38a]" name="afterTest" is-config="true" duration-ms="73" started-at="2017-06-22T15:01:42Z" finished-at="2017-06-22T15:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.mainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
