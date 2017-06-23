@@ -25,5 +25,4 @@ public class mainTest extends manageWebDriver {
 		Assert.assertEquals(text, "examen","test string is displays properly");
 	}
 	
-
 }
