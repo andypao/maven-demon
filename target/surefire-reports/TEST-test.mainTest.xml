@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="1" name="test.mainTest" time="5.451" errors="0" skipped="0">
+<testsuite tests="2" failures="1" name="test.mainTest" time="4.856" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib"/>
@@ -64,7 +64,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="test.mainTest" name="sampleRunToFail" time="4.059">
+  <testcase classname="test.mainTest" name="sampleRunToFail" time="3.521">
     <failure message="test string does not display properly expected [bad input] but found [examen]" type="java.lang.AssertionError">java.lang.AssertionError: test string does not display properly expected [bad input] but found [examen]
 	at org.testng.Assert.fail(Assert.java:93)
 	at org.testng.Assert.failNotEquals(Assert.java:512)
@@ -73,13 +73,13 @@
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at test.mainTest.sampleRunToFail(mainTest.java:16)
 </failure>
-    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@16b3fc9e
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@7b3300e5
 </system-out>
-    <system-err>Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 18772
+    <system-err>Starting ChromeDriver 2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b) on port 38120
 Only local connections are allowed.
-Jun 22, 2017 3:34:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jun 23, 2017 11:35:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 </system-err>
   </testcase>
-  <testcase classname="test.mainTest" name="sampleRunToPass" time="1.392"/>
+  <testcase classname="test.mainTest" name="sampleRunToPass" time="1.335"/>
 </testsuite>

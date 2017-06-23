@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="test.mainTest" duration-ms="6806" started-at="2017-06-22T19:34:16Z" finished-at="2017-06-22T19:34:23Z">
+  <suite name="test.mainTest" duration-ms="6074" started-at="2017-06-23T15:35:26Z" finished-at="2017-06-23T15:35:32Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="6806" started-at="2017-06-22T19:34:16Z" finished-at="2017-06-22T19:34:23Z">
+    <test name="Command line test" duration-ms="6074" started-at="2017-06-23T15:35:26Z" finished-at="2017-06-23T15:35:32Z">
       <class name="test.mainTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.mainTest@26ba2a48]" name="beforeTest" is-config="true" duration-ms="1268" started-at="2017-06-22T15:34:16Z" finished-at="2017-06-22T15:34:17Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.mainTest@5a61f5df]" name="beforeTest" is-config="true" duration-ms="1128" started-at="2017-06-23T11:35:26Z" finished-at="2017-06-23T11:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="sampleRunToFail()[pri:0, instance:test.mainTest@26ba2a48]" name="sampleRunToFail" duration-ms="4056" started-at="2017-06-22T15:34:17Z" finished-at="2017-06-22T15:34:21Z">
+        <test-method status="FAIL" signature="sampleRunToFail()[pri:0, instance:test.mainTest@5a61f5df]" name="sampleRunToFail" duration-ms="3518" started-at="2017-06-23T11:35:27Z" finished-at="2017-06-23T11:35:31Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[test string does not display properly expected [bad input] but found [examen]]]>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleRunToFail -->
-        <test-method status="PASS" signature="sampleRunToPass()[pri:0, instance:test.mainTest@26ba2a48]" name="sampleRunToPass" duration-ms="1395" started-at="2017-06-22T15:34:21Z" finished-at="2017-06-22T15:34:23Z">
+        <test-method status="PASS" signature="sampleRunToPass()[pri:0, instance:test.mainTest@5a61f5df]" name="sampleRunToPass" duration-ms="1336" started-at="2017-06-23T11:35:31Z" finished-at="2017-06-23T11:35:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sampleRunToPass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.mainTest@26ba2a48]" name="afterTest" is-config="true" duration-ms="72" started-at="2017-06-22T15:34:23Z" finished-at="2017-06-22T15:34:23Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.mainTest@5a61f5df]" name="afterTest" is-config="true" duration-ms="81" started-at="2017-06-23T11:35:32Z" finished-at="2017-06-23T11:35:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
